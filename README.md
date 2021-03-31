@@ -10,3 +10,14 @@ This repository is the python implementation of [Causal Hidden Markov Model for 
 python main.py 
 ```
 Due to data privacy, our data set is not public here.
+
+## Citation
+If you found this work useful, please consider citing:
+```
+@inproceedings{li2021causal,
+  title={Causal Hidden Markov Model for Time Series Disease Forecasting},
+  author={Jing Li, Botong Wu, Xinwei Sun, Yizhou Wang},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2021}
+}
+```
