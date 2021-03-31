@@ -124,11 +124,11 @@ def main():
 
     train_epoch = args.epoch
 
-    train_label_path = '/home/lijing/causal_ts_vae/dataset/sequence_train_att_11_02_rand.csv'
-    val_label_path = '/home/lijing/causal_ts_vae/dataset/sequence_val_att_11_02_rand.csv'
-    test_label_path = '/home/lijing/causal_ts_vae/dataset/sequence_test_att_11_02_rand.csv'
+    train_label_path = 'label data path of the train set'
+    val_label_path = 'label data path of the validate set'
+    test_label_path = 'label data path of the test set'
 
-    image_path = '/home/lijing/retina/JPG256SIZE-95'
+    image_path = 'data path of image data set'
     train_dataset = RETINA(args, image_path, train_label_path)
     val_dataset = RETINA(args, image_path, val_label_path)
     test_dataset = RETINA(args, image_path, test_label_path)
